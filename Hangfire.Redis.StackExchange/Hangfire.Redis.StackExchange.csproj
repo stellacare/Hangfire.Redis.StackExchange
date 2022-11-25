@@ -1,8 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net461;netstandard2.0</TargetFrameworks>
-    <PackageId>Hangfire.Redis.StackExchange</PackageId>
+    <TargetFrameworks>net6.0</TargetFrameworks>
+    <PackageId>StellaCare.Hangfire.Redis</PackageId>
     <IsPackable>true</IsPackable>
     <Version>1.8.6</Version>
     <PackageVersion>1.8.6</PackageVersion>
@@ -13,7 +13,7 @@
       There is no equivalent for the owners element in MSBuild. 
     -->
     <Product>Hangfire Redis Storage</Product>
-    <PackageProjectUrl>https://github.com/marcoCasamento/Hangfire.Redis.StackExchange</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/stellacare/StellaCare.Hangfire.Redis</PackageProjectUrl>
     <Description>
       Hangfire Redis Storage Based on Redis.StackExchange
       See http://hangfire.io/ for some more info on the main project
@@ -69,7 +69,7 @@
 			- Aligned dependency to Hangfire.Core
 		</PackageReleaseNotes>
     <PackageTags>Hangfire Redis</PackageTags>
-    <RepositoryUrl>https://github.com/marcoCasamento/Hangfire.Redis.StackExchange</RepositoryUrl>
+    <RepositoryUrl>https://github.com/stellacare/StellaCare.Hangfire.Redis</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <SignAssembly>false</SignAssembly>
